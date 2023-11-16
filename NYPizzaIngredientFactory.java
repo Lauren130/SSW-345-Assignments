@@ -4,10 +4,10 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 		return new ThinCrustDough();
 	}
 
-	public Sauce createSauce() {
-		return new PlumTomatoeSauce();
-	}
- 
+//	public Sauce createSauce() {
+//		return new PlumTomatoeSauce();
+//	}
+//
 	public Sauce createSauce() {
 		return new MarinaraSauce();
 	}
@@ -16,10 +16,10 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 		return new MozzarellaCheese();
 	}
 
-	public Cheese createCheese() {
-		return new ReggianoCheese();
-	}
- 
+//	public Cheese createCheese() {
+//		return new ReggianoCheese();
+//	}
+//
 	public Veggies[] createVeggies() {
 		Veggies veggies[] = { new Garlic(), new Onion(), new Mushroom(), new RedPepper() };
 		return veggies;
@@ -29,9 +29,9 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 		return new SlicedPepperoni();
 	}
 
-	public Clams createClam() {
-		return new FrozenClams();
-	}
+//	public Clams createClam() {
+//		return new FrozenClams();
+//	}
 
 	public Clams createClam() {
 		return new FreshClams();
